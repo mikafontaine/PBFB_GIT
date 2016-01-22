@@ -3,7 +3,7 @@
 #  MC FONTAINE
 ###############################################################
 
-setwd("~/Desktop/maps/")  # Define a specific path where you want to work
+#setwd("~/Desktop/maps/")  # Define a specific path where you want to work
 data <- read.table(file="MildiouEuro.txt", header=TRUE) # Import data, tab-delimited with a header
 attach(data)  #use the variable names. if you don't do this, you will need to used the notation data$Lat
 
