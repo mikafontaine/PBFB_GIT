@@ -1,0 +1,19 @@
+paste(dataPATH, "Ex_2_OriginalData_MildiouEUR.txt", sep="")
+dataPATH <- "~/Dropbox/FONTAINE_LAB/teaching/2016_Practical Computhing for Biologists/PBfB_2016/course/12_Tuesdat/4_Ex2_Part-I_TextFile-RegExp/"
+paste(dataPATH, "Ex_2_OriginalData_MildiouEUR.txt", sep="")
+data <- read.table(paste(dataPATH, "Ex_2_OriginalData_MildiouEUR.txt", sep=""), header=TRUE)
+data <- read.table(paste(dataPATH, "Ex_2_OriginalData_MildiouEUR.txt", sep=""), header=TRUE, sep="\t")
+?read.table
+data <- read.table(paste(dataPATH, "Ex_2_OriginalData_MildiouEUR.txt", sep=""), header=TRUE, sep="\t")
+dataPATH <- "~/Dropbox/FONTAINE_LAB/teaching/2016_Practical\ Computhing\ for\ Biologists/PBfB_2016/course/12_Tuesdat/4_Ex2_Part-I_TextFile-RegExp/"
+data <- read.table(paste(dataPATH, "Ex_2_OriginalData_MildiouEUR.txt", sep=""), header=TRUE, sep="\t")
+setwd("~/Dropbox/FONTAINE_LAB/teaching/2016_Practical\ Computhing\ for\ Biologists/PBfB_2016/course/12_Tuesdat/4_Ex2_Part-I_TextFile-RegExp/")
+data <- read.table("Ex_2_OriginalData_MildiouEUR.txt", header=TRUE, sep="\t")
+data <- read.table("Ex_2_OriginalData_MildiouEUR.txt", header=TRUE, sep="\t", skip=1)
+setwd("~/Desktop/maps/")
+data <- read.table("Ex_2_OriginalData_MildiouEUR.txt", header=TRUE, sep="\t")
+data <- read.table(file="Ex_2_OriginalData_MildiouEUR.txt", header=TRUE, sep="\t")
+data <- read.table(file="MildiouEUR.txt", header=TRUE, sep="\t")
+data <- read.table(file="MildiouEUR.txt")
+source("/var/folders/zq/rz5yd7055_zc985y6c0h_7xm0000gn/T//Rtmpp4ye4j/file185e060e4d260")#
+unlink("/var/folders/zq/rz5yd7055_zc985y6c0h_7xm0000gn/T//Rtmpp4ye4j/file185e060e4d260")
